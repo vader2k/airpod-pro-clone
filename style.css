@@ -108,5 +108,242 @@ nav > h3 { font-weight: 500; }
     bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
+    text-wrap: nowrap;
+}
 
+
+
+
+
+
+.main .page3 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+
+.page3 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page3 > h1 {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+.main .page4 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+
+.page4 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page4 > h1 {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.main .page5 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+
+.page5 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page5 > h1 {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+
+/* .main .extra {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background: transparent;
+}
+
+.extra > h1 {
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+
+
+
+
+.main .page6 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page6 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.apple {padding: 0px !important;}
+
+.page6 p {padding: 10px 0;}
+
+.page6 .orange {
+    font-weight: 500 ;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.page6 .grey {
+    font-weight: 500 ;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.page6 button {
+    padding: 15px 50px;
+    background-color: #fff;
+    border: 3px solid black;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.page6 button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+
+.main .page7 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+}
+
+.page7 > video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.page7 > h1 {
+    position: absolute;
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.page7 > h1 > span {font-size: 2rem;}
+
+
+
+
+
+
+
+
+.page8 {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background: #fff;
+}
+.page8 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.page8 > div {
+    max-width: 500px;
+    padding: 50px 0;
+}
+
+.page8 > div > p {
+    font-weight: 600;
+    color: gray;
+    line-height: 1.5rem;
+}
+
+.page8 > div > button {
+    margin-top:50px ;
+    padding: 20px 50px;
+    background: orangered;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.page8 > h1 {
+    padding: 50px 0;
+    align-items: flex-start;
 }
