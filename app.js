@@ -85,7 +85,7 @@ var tl = gsap.timeline({
 })
 
 tl.to(".page2>h1", {
-    top: `-20%`
+    top: `-400%`
 }) 
 
 
@@ -100,7 +100,7 @@ var tl1 = gsap.timeline({
 })
 
 tl1.to(".page3>h1", {
-    top: `-20%`
+    top: `-50%`
 }) 
 
 
@@ -115,7 +115,7 @@ var tl2 = gsap.timeline({
 })
 
 tl2.to(".page4>h1", {
-    top: `-20%`
+    top: `-50%`
 }) 
 
 
@@ -130,7 +130,7 @@ var tl3 = gsap.timeline({
 })
 
 tl3.to(".page5>h1", {
-    top: `-20%`
+    top: `-50%`
 }) 
 
 // tl3.to(".extra>h1", {
@@ -149,5 +149,35 @@ var tl4 = gsap.timeline({
 })
 
 tl4.to(".page7>h1", {
-    top: `-20%`
+    top: `-50%`
+}) 
+
+
+var tl5 = gsap.timeline({
+    scrollTrigger: {
+        trigger: `.page9`,
+        start: `top top`,
+        scrub: 1,
+        scroller: `.main`,
+        pin: true
+    }
+})
+
+tl5.to(".page9>h1", {
+    top: `-50%`
+}) 
+
+
+var tl6 = gsap.timeline({
+    scrollTrigger: {
+        trigger: `.page11`,
+        start: `top top`,
+        scrub: 1,
+        scroller: `.main`,
+        pin: true
+    }
+})
+
+tl6.to(".page11>h1", {
+    top: `-50%`
 }) 
