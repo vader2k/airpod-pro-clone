@@ -453,3 +453,32 @@ nav > h3 { font-weight: 500; }
 
 
 
+
+
+
+.main .page12 {
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background: #f5f5f7;
+    text-align: center;
+}
+
+.page12 h3 {
+    padding: 200px 0 0 0;
+    font-size: 1.5rem;
+}
+
+.page12 h1 {
+    font-size: 5rem;
+}
+
+.page12 p {
+    padding: 30px 0;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: gray;
+    text-align: center;
+}
